@@ -6,3 +6,7 @@ Python for Everyone via Coursera.org
 
 ## Python Version
 The version of Python that I am currently using is Python 3.9 on the Ubuntu platform.
+
+### Participants
+David Lopez (dlopez079)
+Lucas Matthew Lopez (lmlopez12@outlook.com)
