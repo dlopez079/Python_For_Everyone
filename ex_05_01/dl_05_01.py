@@ -11,10 +11,12 @@ Enter a number: 7
 Enter a number: done
 16  3  5.3333333333
 """
+# Set the variables before the loop
+num = 0  # variable that will be used for the count.
+tot = 0.0 # variable that will be used for the total.
 
 # Gather the input data from user.
 num = input('Enter a number: ')
 
-# Print out the input data from user. 
-print(num)
-
+# Set the instructions that will happen after the loop
+print(tot,num,tot/num)
