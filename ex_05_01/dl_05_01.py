@@ -39,3 +39,6 @@ while True :
 
 # When the loop breaks, print an 'All Done' statement.
 print('All Done!')
+
+# In addition to the 'All Done' print out, print out the total, count, and average.
+print(tot,num,tot/num)
