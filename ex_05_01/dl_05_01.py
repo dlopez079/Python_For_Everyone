@@ -15,8 +15,21 @@ Enter a number: done
 num = 0  # variable that will be used for the count.
 tot = 0.0 # variable that will be used for the total.
 
-# Gather the input data from user.
-num = input('Enter a number: ')
+## Create an infinite loop
+while True :
 
-# Set the instructions that will happen after the loop
-print(tot,num,tot/num)
+    # Gather the input data from user.  Remmber that the value is always a string.
+    sval = input('Enter a number: ')
+
+    # Convert the string value into a float so you can perform math operations.
+    fval = float(sval)
+
+    # Print the floating value.
+    print(fval)
+
+    # Increment the count
+    num = num + 1
+
+    # total = the current total + the input float value.
+    tot = tot + fval
+    
