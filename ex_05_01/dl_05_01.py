@@ -23,7 +23,6 @@ while True :
 
     # If the input is 'done', then break the loop and print 'All Done!'
     if sval == 'done':
-        print('All Done!')
         break 
 
     # Convert the string value into a float so you can perform math operations.
@@ -37,3 +36,6 @@ while True :
 
     # total = the current total + the input float value.
     tot = tot + fval
+
+# When the loop breaks, print an 'All Done' statement.
+print('All Done!')
