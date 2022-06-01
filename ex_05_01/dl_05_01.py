@@ -25,8 +25,18 @@ while True :
     if sval == 'done':
         break 
 
-    # Convert the string value into a float so you can perform math operations.
-    fval = float(sval)
+    # When a user enters a string that cannot be converted into a float, the error message points to fval.  Use Try and except to print 'Invalid Input'.
+    try:
+        # Convert the string value into a float so you can perform math operations.
+        fval = float(sval)
+
+    except:
+        # If there is an issue, print the following:
+        print('Invalid Input')
+
+        # To bypass the below computations, continue to the top of the loop.
+        # This also avoids issues with the print statements that include tot, num, average
+        continue
 
     # Print the floating value.
     print(fval)
