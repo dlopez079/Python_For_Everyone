@@ -12,5 +12,9 @@ Enter a number: done
 16  3  5.3333333333
 """
 
+# Gather the input data from user.
+num = input('Enter a number: ')
 
+# Print out the input data from user. 
+print(num)
 
