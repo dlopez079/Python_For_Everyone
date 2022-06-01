@@ -21,6 +21,11 @@ while True :
     # Gather the input data from user.  Remmber that the value is always a string.
     sval = input('Enter a number: ')
 
+    # If the input is 'done', then break the loop and print 'All Done!'
+    if sval == 'done':
+        print('All Done!')
+        break 
+
     # Convert the string value into a float so you can perform math operations.
     fval = float(sval)
 
@@ -32,4 +37,3 @@ while True :
 
     # total = the current total + the input float value.
     tot = tot + fval
-    
