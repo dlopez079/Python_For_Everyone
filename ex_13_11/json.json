@@ -1,0 +1,99 @@
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "105/42",
+                    "short_name": "105/42",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "Bol'shaya Sadovaya Ulitsa",
+                    "short_name": "Bol'shaya Sadovaya Ulitsa",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Rostov",
+                    "short_name": "Rostov",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Kirovskiy",
+                    "short_name": "Kirovskiy",
+                    "types": [
+                        "administrative_area_level_3",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Gorod Rostov-On-Don",
+                    "short_name": "Gorod Rostov-On-Don",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Rostovskaya oblast'",
+                    "short_name": "Rostovskaya oblast'",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Russia",
+                    "short_name": "RU",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "344006",
+                    "short_name": "344006",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "\u0443\u043b, Bol'shaya Sadovaya Ulitsa, 105/42, Rostov, Rostovskaya oblast', Russia, 344006",
+            "geometry": {
+                "location": {
+                    "lat": 47.224719,
+                    "lng": 39.7283339
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 47.2259369802915,
+                        "lng": 39.72971083029149
+                    },
+                    "southwest": {
+                        "lat": 47.2232390197085,
+                        "lng": 39.7270128697085
+                    }
+                }
+            },
+            "partial_match": true,
+            "place_id": "ChIJNeHD4p-540AR2Q0_ZjwmKJ8",
+            "plus_code": {
+                "compound_code": "6PFH+V8 Rostov-on-Don, Rostov Oblast, Russia",
+                "global_code": "8GVX6PFH+V8"
+            },
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "university"
+            ]
+        }
+    ],
+    "status": "OK"
+}
