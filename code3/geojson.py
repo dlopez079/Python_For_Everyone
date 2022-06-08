@@ -8,7 +8,7 @@ api_key = False
 # https://developers.google.com/maps/documentation/geocoding/intro
 
 if api_key is False:
-    api_key = 42
+    api_key = 4211
     serviceurl = 'http://py4e-data.dr-chuck.net/json?'
 else :
     serviceurl = 'https://maps.googleapis.com/maps/api/geocode/json?'
