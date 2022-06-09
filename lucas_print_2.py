@@ -1,6 +1,6 @@
 
-ManInput = input("Who is the man with the master plan? ")
-print(ManInput)
+manInput = input("Who is the man with the master plan? ")
+print(manInput)
 
-x = "If you said Lucas your right! Lucas is the man with the master plan!"
+x = "If you said " + manInput +", your right! " + manInput + " is the man with the master plan!"
 print(x)
